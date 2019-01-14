@@ -1,19 +1,18 @@
-# < Title of your final project >
+# < Taiper House Rental 2018 >
 
 ### Groups
-* < name, student ID1 >
-* < name, student ID2 >
-* < name, student ID3 >
+* < 朱奕寧, 107753042 >
+* < 張筆翔, 106753038 >
 
 ### Goal
-A breif introduction about your project, i.e., what is your goal?
+To predict the price for house rental.
 
 ### demo 
 You should provide an example commend to reproduce your result
 ```R
 Rscript code/your_script.R --input data/training --output results/performance.tsv
 ```
-* any on-line visualization
+on-line visualization: https://ryuuuuuu.shinyapps.io/Taipei_House_Rental_2018/
 
 ## Folder organization and its related information
 
