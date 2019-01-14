@@ -8,37 +8,31 @@
 To predict the price for house rental.
 
 ### demo 
-You should provide an example commend to reproduce your result
-```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
-```
+1. Using R-Studio to run Data.R to modify the rental_data.
+2. Using R-Studio to run RF.R to make the model.
+3. Through the shiny app to predict to price.
+
 on-line visualization: https://ryuuuuuu.shinyapps.io/Taipei_House_Rental_2018/
 
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1071_datascience_FP_<yourID|groupName>.ppt/pptx/pdf, by **Jan. 15**
-* Any related document for the final project
-  * papers
-  * software user guide
+* My presentation, 1071_datascience_FP_<107753042|Taipei_House_Rental_2018>.pptx
 
 ### data
+* Source : Dept of Land Administration M. O. I.
+( https://lvr.land.moi.gov.tw/homePage.action )
 
-* Source
-* Input format
 * Any preprocessing?
   * Handle missing data
   * Scale value
 
 ### code
-
-* Which method do you use?
-* What is a null model for comparison?
-* How do your perform evaluation? ie. Cross-validation, or extra separated data
+* Using 5-fold cross-validation, and random forest
 
 ### results
-
-* Which metric do you use 
-  * precision, recall, R-square
-* Is your improvement significant?
-* What is the challenge part of your project?
+* Testing Accuracy: 0.1584543
+  Training Accuracy: 0.9816459
+  Validation Accuracy: 0.81573
+* Challenge: 1.Numbers of data is small
+             2.Values in the specific column are disparity
