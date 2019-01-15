@@ -1,4 +1,4 @@
-# < Taiper House Rental 2018 >
+# < Taipei House Rental 2018 >
 
 ### Groups
 * < 朱奕寧, 107753042 >
